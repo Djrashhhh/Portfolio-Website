@@ -8,10 +8,10 @@ export default function Contact() {
         <div className="space-y-3">
           <p className="text-lg">
             Email: <a 
-              href="mailto:mbagutarodney7@gmail.com" 
+              href="mailto:rodney.mbaguta.m@gmail.com" 
               className="text-blue-400 hover:text-blue-300 transition-colors underline"
             >
-              mbagutarodney7@gmail.com
+              rodney.mbaguta.m@gmail.com
             </a>
           </p>
           <p className="text-lg">
