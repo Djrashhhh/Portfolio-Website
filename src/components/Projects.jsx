@@ -16,7 +16,8 @@ const projects = [
     image: "/images/invest-login.png", // Add your image path
     technologies: ["Java", "Spring Boot", "JWT Auth", "REST APIs", "PostgreSQL", "TypeScript", "React", "Tailwind CSS", "Finnhub API", "NewsAPI"],
     githubLink: "https://github.com/Djrashhhh/SimInvest-Platform",
-    liveDemo: "https://www.loom.com/share/35ecd376b62040e9839f06aa2a810468?sid=383e569c-c1f3-4bea-a875-d521b93dc082"
+    liveDemo: "https://www.loom.com/share/35ecd376b62040e9839f06aa2a810468?sid=383e569c-c1f3-4bea-a875-d521b93dc082",
+    website: "https://siminvestplatform.netlify.app/login"
   }
 ];
 
@@ -85,6 +86,15 @@ export default function Projects() {
                   >
                     <FaExternalLinkAlt className="text-sm group-hover:scale-110 transition-transform" />
                     <span className="font-medium">Live Demo</span>
+                  </a>
+                  <a
+                    href={project.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors group"
+                  >
+                    <FaExternalLinkAlt className="text-sm group-hover:scale-110 transition-transform" />
+                    <span className="font-medium">Website</span>
                   </a>
                 </div>
               </div>

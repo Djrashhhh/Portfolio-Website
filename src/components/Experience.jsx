@@ -2,26 +2,26 @@ import React from "react";
 
 const experiences = [
   {
-    title: "Web Developer - Bay Horizon Built Ltd (Edmonton, Canada)",
+    title: "Software Developer Intern- Bay Horizon Built Ltd (Edmonton, Canada)",
     period: "May – Aug 2025",
     points: [
-      "Designed and implemented the company’s website, enhancing its digital presence",
+      "Architected a centralized database system on Microsoft Azure and building a responsive React.js frontend, I helped them achieve a 37% boost in client engagement while cutting data retrieval times in half.",
       
     ]
   },
   {
-    title: "Software Engineer Intern - Centrika LTD (Rwanda)",
+    title: "Software Engineer Intern - Centrika LTD (Kigali, Rwanda)",
     period: "May – Aug 2024",
     points: [
-      "Led the creation of a centralized task management system that optimized operational workflows across events, transport, and customer support services",
-      
+      "Built a system that reliably tracks and monitors 1,700 active point-of-sale devices across Rwanda, processing over 45,000 transactions every single day",
+      "The system transformed how the operations team worked, eliminating 25% of manual data entry and giving them back 2+ hours daily to focus on strategic initiatives rather than tedious administrative tasks."
     ]
   },
   {
-    title: "Software Developer Intern - Bank of Kigali (Rwanda)",
+    title: "Backend Engineer Intern - Bank of Kigali (Kigali, Rwanda)",
     period: "June - Aug 2023",
     points: [
-      "Assisted in the development of Urubuto, a modular and scalable education management system that streamlined administration for over 650 schools with features including fees processing, library and student behavior tracking, communication, and advanced analytics",
+      "Built an Educational Management system that reduces manual processing times by 35% for the bank's educational program, serving over 100 institutions.",
       
     ]
   }
